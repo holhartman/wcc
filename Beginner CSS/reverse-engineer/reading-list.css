@@ -1,0 +1,95 @@
+body {
+    background-image: url('http://practice-pixels.s3.amazonaws.com/texture-blue.jpg');
+    font-size: 62.5%;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px
+}
+
+#wrapper {
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: GhostWhite;
+    border-radius:10px;
+    padding: 25px;
+}
+
+#top-link {
+    font-size: 1.2rem;
+    color: black;
+}
+
+.book-box {
+    width: 700px;
+    margin:auto;
+    background-color: #EEEEEE;
+    padding:25px;
+    margin-bottom: 25px;
+}
+
+h1, h2, h3, h4 {
+    font-family: Helvetica;
+    margin: 1px;
+}
+
+h1 {
+    color: #D42A1D;
+    font-size: 2.0rem;
+}
+
+h2, h3  {
+    font-size: 1.2rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family: Georgia;
+    line-height: 1.5;
+}
+
+a {
+    font-size: 1rem;
+    font-family: Helvetica
+}
+
+p.author {
+    font-style: italic;
+}
+
+div {
+    display:'block';
+    background-color:'#EEEEEE'
+}
+
+a:link {
+        color: #D42A1D;
+    }
+    a:visited {
+        color: #185A96;
+    }
+    a:hover {
+        color: #185A96;
+        text-decoration: none;
+
+    }
+    a:active {
+        color: black;
+        text-decoration: none;
+    }
+
+footer {
+    font-size: 1rem;
+    font-family: Helvetica;
+    margin: 1px;
+    text-align: center;
+}
