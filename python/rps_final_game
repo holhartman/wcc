@@ -1,0 +1,27 @@
+import random
+
+def play():
+
+    print('Welcome to Welcome to Rock, Paper, Scissors!')
+
+    # Player goes
+    # ???
+
+    # Computer goes
+    # ???
+    print('The computer picked: ' + computer)
+
+    # Figure out who won
+    # Print results; either: `Tie`, `You Won!`, or `The computer won.`
+    # ???
+
+    # Prompt to play again
+    play_again = raw_input('Play again? Type `y` or `n`: ')
+
+    if(play_again == 'y'):
+        play()
+    else:
+        print('Thanks for playing!')
+
+# Run the game
+play()
