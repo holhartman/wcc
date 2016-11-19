@@ -75,8 +75,9 @@ def play():
             print('Too low! You have ' + str(guess_number) + ' guesses left.\n')
             guess = get_guess()
 
-    if guess != secret_number and guess_count > 5:
-            print('You ran out of turns! The number was ' + str(secret_number) + '.\n')
+        #elif guess != secret_number and guess_count >= 5:
+            #results = compare(guess, secret_number);
+    print('You ran out of turns! The number was ' + str(secret_number) + '.\n')
 
 
 # Run the game
