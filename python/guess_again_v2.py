@@ -60,24 +60,23 @@ def play():
 
     for guess_count in range(0, 4):
 
-        if guess == secret_number:
-            print('You guessed correctly!')
-            break
-
-        elif guess > secret_number:
+        if guess > secret_number:
             results = compare(guess, secret_number);
             guess_number = 4 - int(guess_count)
             print('Too high! You have ' + str(guess_number) + ' guesses left.\n')
             guess = get_guess()
+
         elif guess < secret_number:
             results = compare(guess, secret_number);
             guess_number = 4 - int(guess_count)
             print('Too low! You have ' + str(guess_number) + ' guesses left.\n')
             guess = get_guess()
 
-        #elif guess != secret_number and guess_count >= 5:
+        if guess == secret_number:
+            print('You guessed correctly!')
+            break
             #results = compare(guess, secret_number);
-    print('You ran out of turns! The number was ' + str(secret_number) + '.\n')
+        print('You ran out of turns! The number was ' + str(secret_number) + '.\n')
 
 
 # Run the game
